@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulario</title>
+        <link rel="stylesheet" href ="Form.css" type="text/css" />
+    
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <nav>
+                    <a href="https://www.ups.edu.ec/sede-cuenca"><img src="https://www.pequeciencia.ups.edu.ec/imgcontenidos/2-3_Logo%20UPS.png" alt="logo" height="100" width="200"> </a>
+                    
+                </nav>
+                
+            </div>
+            <br>
+            <div class="boton">
+                <a href="/hypermedial/Practica-PHP/Practica04-Mi-Agenda-Telef-nica/index.html"><input type="button" id="btnInicio" value="Inicio" style="float: right; width: 20%;display: inline-block;border-radius: 4px;background-color: chartreuse;border: none;color: #FFFFFF;text-align: center;font-size: 28px;padding: 20px;width: 200px;transition: all 0.5s;cursor: pointer;margin: 5px;cursor: pointer;display: inline-block;position: relative;transition: 0.5s;margin-left: 174px;"></a>
+                <a href="listarTelfAnonimo.html"><input type="button" id="btnBuscar" value="Buscar Telefono" style="float: right; width: 20%;display: inline-block;border-radius: 4px;background-color: chartreuse;border: none;color: #FFFFFF;text-align: center;font-size: 28px;padding: 20px;width: 233px;transition: all 0.5s;cursor: pointer;margin: 5px;cursor: pointer;display: inline-block;position: relative;transition: 0.5s;margin-left: 174px;"></a>
+            </div>
+        </header>
+        <aside>
+            <h2>Formulario</h2>
+            <img class="img1" src="https://lh3.googleusercontent.com/proxy/vafxaZZrzY7ZdMeq0v6h_IBdbF6EwXaQwgW6VR-KGYc2gDPWDn4-fgn5bSdwDYWaygXiUoLhAOyTj9RK81LBT6IKLHNo0mOAa_GRsq7skPM4Cys4" alt="mio"> &nbsp;&nbsp;&nbsp;
+            <!--<form id="formulario01" method="POST" onsubmit="return validar()||EntrarPHP() " action="/hypermedial/Practica-PHP/Practica04-Mi-Agenda-Telef-nica/public/controlador/crear_usuario.php" >-->
+            <form  method="POST" action="AgregarLibro.php" >
+                <fieldset>
+                   <legend>Informacion:</legend>
+                         <p>Llene los siguintes datos:</p><br>
+                            <br>
+                            
+                         <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre:&nbsp;</label><input type='text' id="nombre" name="nombre" value='' ></div><br>
+                         <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ISBN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type='text' id="isbn" name="isbn" value='' ></div><br>
+                         <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numero de Paginas:&nbsp;</label><input type="text" id="numpagina" name="numpagina"  value="" style="
+                            width: 626px;"></div><br>
+                           <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numero de Capitulo:&nbsp;</label><input type="text" id="numcapitulo" name="numcapitulo"  value="" style="
+                            width: 626px;"></div><br>
+                             <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Titulo:&nbsp;</label><input type='text' id="titulo" name="titulo" value='' ></div><br>
+                             <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autor:&nbsp;</label><input type='text' id="autor" name="autor" value='' ></div><br>
+                             <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nacionalidad:&nbsp;</label><input type='text' id="nacionalidad" name="nacionalidad" value='' ></div><br>
+                         <input type="submit"  id="btnValidar"  value="Aceptar" style="float: right;width: 20%;"> 
+                        
+                         <br><br>
+                            
+               </fieldset>
+            </form>
+            <spam id="p" style="display: none;">error</spam>
+        </aside>
+        <br><br><br><br>
+        <footer id="piepagina">
+            Cargatodo • 411 Azuay Kevin AZ  • 07-411-46-47<br>
+            <p>Gracias por visitarnos <em>Vuelva pronto</em></p>
+            <p>Última Actualización:
+            <time datetime="2020-04-23">Abril 23 2020 8:25 p.m.</time></p>
+            <p><cite>Kevin Godoy Mendía @2020 Derechos Reservados</cite></p>
+       </footer>
+    </body>
+    
+</html>

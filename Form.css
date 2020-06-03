@@ -1,0 +1,57 @@
+.logo{
+    float: left;
+}
+header{
+    background-color: #afbdb363;
+    height: 100px;
+    margin-top: -6px;
+}
+input,label{
+    float: none;
+    width: 100px;
+}
+body{
+    background:#bd9764c2;
+}
+#button {
+    padding: 0;
+    
+}
+.img1{
+    width: 426px;
+    height: 500px;
+    float: right;
+    margin-right: -422px;
+    margin-top: 8px;
+}
+fieldset{
+    width: 12%;
+    margin-top: -418px;
+    float: right;
+    margin-left: -265px
+}
+input{
+    width: 700px;
+}
+aside{
+    float: left;
+    padding: 62px;
+}
+footer{
+    background-color: #afbdb363;
+    padding: 0px;
+    margin-top: 491px;
+    clear: both;
+    border: rgb(86, 87, 143);
+    border-bottom: outset;
+    border-color: darkslategrey;
+    border-top: 2px solid black;
+}
+.error {
+    color: red;
+    font-size: 8px;
+    }
+h2{
+    margin-left: -251px;
+    margin-top: -37px;
+}
